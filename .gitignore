@@ -1,0 +1,62 @@
+# ===== Unity が自動生成するフォルダ（コミット不要） =====
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# 無視したアセットの .meta だけを無視する
+!/[Aa]ssets/**/*.meta
+
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# ===== IDE / エディタ =====
+.vs/
+.vscode/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ===== クラッシュログ・ビルド成果物 =====
+*.log
+sysinfo.txt
+mono_crash.*
+*.apk
+*.aab
+*.app
+*.unitypackage
+*.unitypackage.meta
+crashlytics-build.properties
+
+# ===== Addressables =====
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
